@@ -19,6 +19,12 @@ namespace _1911065371_NguyenThanhTai_Bigschool.Controllers
 
             return View();
         }
+        public ActionResult About1()
+        {
+            ViewBag.Message = "Tài deptraio";
+
+            return View();
+        }
 
         public ActionResult Contact()
         {
