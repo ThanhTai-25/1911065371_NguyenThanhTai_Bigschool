@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 20px;
 }
 
@@ -16,8 +16,8 @@
     white-space: normal;
 }
 .navbar-inverse {
-    background-color: palevioletred;
-    border-color: red;
+    background-color: #ebeb26;
+    border-color: #ebeb26;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -30,15 +30,19 @@
 
 .cr {
     list-style: none;
+    border: 2px solid red;
 }
 
 .cr > li {
-position: relative;
-margin-bottom: 30px;
-margin-top: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
 }
 
-
+.btn-default {
+    background-color: #2bb9a9;
+}
 .cr > li .details {
     position: absolute;
     top: 0;
