@@ -25,7 +25,7 @@ namespace _1911065371_NguyenThanhTai_Bigschool
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/Site.css"));
         }
     }
 }

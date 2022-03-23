@@ -28,24 +28,24 @@
     color: darkred;
 }
 
-.crs {
+.cr {
     list-style: none;
 }
 
-.crs > li {
+.cr > li {
 position: relative;
 margin-bottom: 30px;
 margin-top: 10px;
 }
 
 
-.crs > li .details {
+.cr > li .details {
     position: absolute;
     top: 0;
     left: 70px;
 }
 
-.crs > li .date {
+.cr > li .date {
     text-align: center;
     background-color: #eb6a05;
     color: yellow;
@@ -53,13 +53,13 @@ margin-top: 10px;
     border-radius: 8px;
 }
 
-.crs > li .action {
+.cr > li .action {
     display: none;
     left: 70px;
     position: absolute;
 }
 
-.crs > li:hover .action {
+.cr > li:hover .action {
     display: block;
 }
 
