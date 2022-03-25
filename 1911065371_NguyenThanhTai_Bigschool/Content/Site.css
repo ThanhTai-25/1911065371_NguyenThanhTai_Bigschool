@@ -28,28 +28,27 @@
     color: darkred;
 }
 
-.cr {
+.crs {
     list-style: none;
     border: 2px solid red;
 }
 
-.cr > li {
-    position: relative;
-    margin-bottom: 30px;
-    margin-top: 10px;
-
-}
+    .crs > li {
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
 
 .btn-default {
     background-color: #2bb9a9;
 }
-.cr > li .details {
+.crs > li .details {
     position: absolute;
     top: 0;
     left: 70px;
 }
 
-.cr > li .date {
+.crs > li .date {
     text-align: center;
     background-color: #eb6a05;
     color: yellow;
@@ -57,13 +56,13 @@
     border-radius: 8px;
 }
 
-.cr > li .action {
+.crs > li .action {
     display: none;
     left: 70px;
     position: absolute;
 }
 
-.cr > li:hover .action {
+.crs > li:hover .action {
     display: block;
 }
 
