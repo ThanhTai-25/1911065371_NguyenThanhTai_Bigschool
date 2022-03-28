@@ -35,7 +35,7 @@
 
     .crs > li {
         position: relative;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         margin-top: 10px;
     }
 
@@ -72,3 +72,4 @@ select,
 textarea {
     max-width: 280px;
 }
+/*Chấm bài*/
